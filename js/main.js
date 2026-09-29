@@ -26,14 +26,19 @@ const apellido = prompt("Ingrese su apellido");
 const edad = parseInt(prompt("Ingrese su edad"));
 const ciudad = prompt("Ingrese su ciudad");
 
-//procesamiento
-
 let numero1 = parseInt(prompt("Ingrese el primer numero"));
 let numero2 = parseInt(prompt("Ingrese el segundo numero"));
+
+//procesamiento
+
+let resultado = numero1 + numero2;
 
 //salida de datos
 
 console.log("Mi nombre es " + nombre + " " + apellido + " y tengo " + edad + " años");
-console.log("La suma de los números es: " + (numero1 + numero2));
-alert("La suma de los números es: " + (numero1 + numero2));
+
+console.log("La suma de los números es: " + resultado);
+
+alert("La suma de los números es: " + resultado);
+
 alert("Hola " + nombre + " " + apellido + ", tenés " + edad + " años y sos de " + ciudad);
